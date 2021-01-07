@@ -43,7 +43,7 @@ class Sketch {
     }
 
     get foreignSymbols() {
-        return this.document.foreignSymbols.map(symbol => symbol.symbolMaster);
+        return this.document.foreignSymbols.map(symbol => symbol);
     }
 
     get layerStyles() {
